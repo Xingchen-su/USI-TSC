@@ -1,0 +1,290 @@
+{
+  "global_action_dim": 8,
+  "meta": {
+    "run_dir": "lane_dir/outputs_specs/2025-10-23_17-00-23",
+    "net_path": "env/sumo_fenglin_base_road/fenglin_y2z_t.net.xml",
+    "net_hash": "bbe1b68e48023da5d9393191ddcce2b5",
+    "spec_format_version": "v1.1"
+  },
+  "per_agent": {
+    "J12": {
+      "head_to_phase": [
+        4,
+        -1,
+        -1,
+        6,
+        0,
+        -1,
+        -1,
+        2
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "J12",
+        "traci_phases": 8,
+        "green_raw": 4,
+        "green_semantic": 4,
+        "non_semantic_count": 0,
+        "a_loc": 4
+      }
+    },
+    "J16": {
+      "head_to_phase": [
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        2,
+        -1,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "J16",
+        "traci_phases": 4,
+        "green_raw": 2,
+        "green_semantic": 2,
+        "non_semantic_count": 0,
+        "a_loc": 2
+      }
+    },
+    "J20": {
+      "head_to_phase": [
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        2,
+        -1,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "J20",
+        "traci_phases": 4,
+        "green_raw": 2,
+        "green_semantic": 2,
+        "non_semantic_count": 0,
+        "a_loc": 2
+      }
+    },
+    "J28": {
+      "head_to_phase": [
+        4,
+        -1,
+        -1,
+        6,
+        0,
+        -1,
+        -1,
+        2
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "J28",
+        "traci_phases": 8,
+        "green_raw": 4,
+        "green_semantic": 4,
+        "non_semantic_count": 0,
+        "a_loc": 4
+      }
+    },
+    "J32": {
+      "head_to_phase": [
+        4,
+        -1,
+        -1,
+        6,
+        0,
+        -1,
+        -1,
+        2
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "J32",
+        "traci_phases": 8,
+        "green_raw": 4,
+        "green_semantic": 4,
+        "non_semantic_count": 0,
+        "a_loc": 4
+      }
+    },
+    "J36": {
+      "head_to_phase": [
+        4,
+        -1,
+        -1,
+        6,
+        0,
+        -1,
+        -1,
+        2
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "J36",
+        "traci_phases": 8,
+        "green_raw": 4,
+        "green_semantic": 4,
+        "non_semantic_count": 0,
+        "a_loc": 4
+      }
+    },
+    "J6": {
+      "head_to_phase": [
+        4,
+        -1,
+        -1,
+        6,
+        0,
+        -1,
+        -1,
+        2
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "J6",
+        "traci_phases": 8,
+        "green_raw": 4,
+        "green_semantic": 4,
+        "non_semantic_count": 0,
+        "a_loc": 4
+      }
+    }
+  }
+}

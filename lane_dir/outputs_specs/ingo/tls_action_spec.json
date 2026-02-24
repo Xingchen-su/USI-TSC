@@ -1,0 +1,838 @@
+{
+  "global_action_dim": 8,
+  "meta": {
+    "run_dir": "lane_dir/outputs_specs/2025-10-23_17-03-30",
+    "net_path": "env/ingolstadt21/ingolstadt21.net.xml",
+    "net_hash": "8c83323fe4af06ede9f3db5529551b75",
+    "spec_format_version": "v1.1"
+  },
+  "per_agent": {
+    "1863241632": {
+      "head_to_phase": [
+        -1,
+        4,
+        -1,
+        -1,
+        0,
+        -1,
+        2,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "1863241632",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "2330725114": {
+      "head_to_phase": [
+        -1,
+        4,
+        -1,
+        -1,
+        0,
+        -1,
+        2,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "2330725114",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "243351999": {
+      "head_to_phase": [
+        0,
+        -1,
+        2,
+        -1,
+        -1,
+        -1,
+        4,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "243351999",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "243641585": {
+      "head_to_phase": [
+        -1,
+        5,
+        -1,
+        -1,
+        1,
+        3,
+        -1,
+        -1
+      ],
+      "legal_mask_phase": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "243641585",
+        "traci_phases": 7,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "243749571": {
+      "head_to_phase": [
+        4,
+        -1,
+        -1,
+        6,
+        0,
+        -1,
+        -1,
+        2
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "243749571",
+        "traci_phases": 8,
+        "green_raw": 4,
+        "green_semantic": 4,
+        "non_semantic_count": 0,
+        "a_loc": 4
+      }
+    },
+    "30503246": {
+      "head_to_phase": [
+        -1,
+        -1,
+        4,
+        -1,
+        0,
+        -1,
+        2,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "30503246",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "30624898": {
+      "head_to_phase": [
+        -1,
+        4,
+        -1,
+        -1,
+        0,
+        2,
+        -1,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "30624898",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "32564122": {
+      "head_to_phase": [
+        -1,
+        -1,
+        2,
+        -1,
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "32564122",
+        "traci_phases": 4,
+        "green_raw": 2,
+        "green_semantic": 2,
+        "non_semantic_count": 0,
+        "a_loc": 2
+      }
+    },
+    "89127267": {
+      "head_to_phase": [
+        -1,
+        4,
+        -1,
+        -1,
+        0,
+        -1,
+        2,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "89127267",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "89173763": {
+      "head_to_phase": [
+        0,
+        -1,
+        -1,
+        2,
+        4,
+        -1,
+        -1,
+        6
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "89173763",
+        "traci_phases": 8,
+        "green_raw": 4,
+        "green_semantic": 4,
+        "non_semantic_count": 0,
+        "a_loc": 4
+      }
+    },
+    "89173808": {
+      "head_to_phase": [
+        0,
+        -1,
+        -1,
+        2,
+        4,
+        -1,
+        -1,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "89173808",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "cluster_1041665625": {
+      "head_to_phase": [
+        -1,
+        4,
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        2
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "cluster_1041665625",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "cluster_1427494838_273472399": {
+      "head_to_phase": [
+        0,
+        -1,
+        6,
+        -1,
+        -1,
+        2,
+        -1,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "cluster_1427494838_273472399",
+        "traci_phases": 8,
+        "green_raw": 4,
+        "green_semantic": 3,
+        "non_semantic_count": 1,
+        "a_loc": 3
+      }
+    },
+    "cluster_1757124350_1757124352": {
+      "head_to_phase": [
+        -1,
+        -1,
+        4,
+        -1,
+        0,
+        2,
+        -1,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "cluster_1757124350_1757124352",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "cluster_1833965782": {
+      "head_to_phase": [
+        0,
+        -1,
+        2,
+        -1,
+        -1,
+        -1,
+        4,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "cluster_1833965782",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "cluster_1840209209": {
+      "head_to_phase": [
+        -1,
+        -1,
+        4,
+        -1,
+        0,
+        -1,
+        2,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "cluster_1840209209",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "cluster_1863241547": {
+      "head_to_phase": [
+        0,
+        -1,
+        -1,
+        2,
+        4,
+        -1,
+        -1,
+        6
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "cluster_1863241547",
+        "traci_phases": 8,
+        "green_raw": 4,
+        "green_semantic": 4,
+        "non_semantic_count": 0,
+        "a_loc": 4
+      }
+    },
+    "cluster_2302665030": {
+      "head_to_phase": [
+        0,
+        2,
+        -1,
+        -1,
+        -1,
+        4,
+        -1,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "cluster_2302665030",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "cluster_274083968": {
+      "head_to_phase": [
+        -1,
+        -1,
+        4,
+        -1,
+        0,
+        2,
+        -1,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "cluster_274083968",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "cluster_306484187": {
+      "head_to_phase": [
+        -1,
+        -1,
+        0,
+        -1,
+        5,
+        2,
+        -1,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "cluster_306484187",
+        "traci_phases": 7,
+        "green_raw": 4,
+        "green_semantic": 4,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    },
+    "cluster_371462086": {
+      "head_to_phase": [
+        0,
+        2,
+        -1,
+        -1,
+        -1,
+        4,
+        -1,
+        -1
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "cluster_371462086",
+        "traci_phases": 6,
+        "green_raw": 3,
+        "green_semantic": 3,
+        "non_semantic_count": 0,
+        "a_loc": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+<edgedata>
+    <interval begin="0" end="3600">
+        <!-- 不允许生成 -->
+        <!-- 中间四条路 -->
+        <edge id="D3C3" value="0.0" />
+        <edge id="C3D3" value="0.0" />
+        <edge id="C2C3" value="0.0" />
+        <edge id="C3C2" value="0.0" />
+        <edge id="C2D2" value="0.0" />
+        <edge id="D2C2" value="0.0" />
+        <edge id="D3D2" value="0.0" />
+        <edge id="D2D3" value="0.0" />
+        <!-- 上方两条路 -->
+        <edge id="C4C3" value="0.0" />
+        <edge id="C3C4" value="0.0" />
+        <edge id="D4D3" value="0.0" />
+        <edge id="D3D4" value="0.0" />
+        <!-- 右边两条路 -->
+        <edge id="E3D3" value="0.0" />
+        <edge id="D3E3" value="0.0" />
+        <edge id="D2E2" value="0.0" />
+        <edge id="E2D2" value="0.0" />
+        <!-- 下方两条路 -->
+        <edge id="C2C1" value="0.0" />
+        <edge id="C1C2" value="0.0" />
+        <edge id="D1D2" value="0.0" />
+        <edge id="D2D1" value="0.0" />
+        <!-- 左边两条路 -->
+        <edge id="B3C3" value="0.0" />
+        <edge id="C3B3" value="0.0" />
+        <edge id="B2C2" value="0.0" />
+        <edge id="C2B2" value="0.0" />
+
+        <!-- 其他道路 -->
+        <edge id="D1C1" value="0.0" />
+        <edge id="D1E1" value="0.0" />
+        <edge id="C4D4" value="0.0" />
+        <edge id="B1B2" value="0.0" />
+        <edge id="B4B3" value="0.0" />
+        <edge id="D4E4" value="0.0" />
+        <edge id="E4D4" value="0.0" />
+        <edge id="C4B4" value="0.0" />
+        <edge id="B4C4" value="0.0" />
+        <edge id="B2B3" value="0.0" />
+        <edge id="B2B1" value="0.0" />
+        <edge id="C1D1" value="0.0" />
+        <edge id="B1C1" value="0.0" />
+        <edge id="E3F3" value="0.0" />
+        <edge id="B4A4" value="0.0" />
+        <edge id="E2E1" value="0.0" />
+        <edge id="B3B4" value="0.0" />
+        <edge id="E4E3" value="0.0" />
+        <edge id="E2E3" value="0.0" />
+        <edge id="E1D1" value="0.0" />
+        <edge id="E3E2" value="0.0" />
+        <edge id="B3B2" value="0.0" />
+        <edge id="D4C4" value="0.0" />
+        <edge id="E3E4" value="0.0" />
+        <edge id="C1B1" value="0.0" />
+        <edge id="E1E2" value="0.0" />
+
+        <!-- 允许生成 -->
+        <!-- 左-->
+        <edge id="A1B1" value="1.0" />
+        <edge id="B1A1" value="1.0" />
+        <edge id="A2B2" value="1.0" />
+        <edge id="B2A2" value="1.0" />
+        <edge id="A3B3" value="1.0" />
+        <edge id="B3A3" value="1.0" />
+        <edge id="B4A4" value="1.0" />
+        <edge id="A4B4" value="1.0" />
+        
+        <!-- 右-->
+        <edge id="E1F1" value="1.0" />
+        <edge id="F1E1" value="1.0" />
+        <edge id="E4F4" value="1.0" />
+        <edge id="F4E4" value="1.0" />
+        <edge id="E2F2" value="1.0" />
+        <edge id="F2E2" value="1.0" />
+        <edge id="E3F3" value="1.0" />
+        <edge id="F3E3" value="1.0" />
+
+        <!-- 下-->
+        <edge id="B1B0" value="1.0" />
+        <edge id="B0B1" value="1.0" />
+        <edge id="C1C0" value="1.0" />
+        <edge id="C0C1" value="1.0" />
+        <edge id="D1D0" value="1.0" />
+        <edge id="D0D1" value="1.0" />
+        <edge id="E1E0" value="1.0" />
+        <edge id="E0E1" value="1.0" />
+
+        <!-- 上-->
+        <edge id="B4B5" value="1.0" />
+        <edge id="B5B4" value="1.0" />
+        <edge id="C5C4" value="1.0" />
+        <edge id="C4C5" value="1.0" />
+        <edge id="D5D4" value="1.0" />
+        <edge id="D4D5" value="1.0" />
+        <edge id="E5E4" value="1.0" />
+        <edge id="E4E5" value="1.0" />
+    </interval>
+</edgedata>

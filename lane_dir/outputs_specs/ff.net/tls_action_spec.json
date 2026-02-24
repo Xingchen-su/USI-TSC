@@ -1,0 +1,795 @@
+{
+  "global_action_dim": 8,
+  "meta": {
+    "run_dir": "lane_dir/outputs_specs/2025-10-18_17-45-54",
+    "net_path": "env/map_ff/ff.net.xml",
+    "net_hash": "d39f1a416726aed60434b0522b97e642",
+    "spec_format_version": "v1.1"
+  },
+  "per_agent": {
+    "B1": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "B1",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "B2": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "B2",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "B3": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "B3",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "B4": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "B4",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "C1": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "C1",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "C2": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "C2",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "C3": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "C3",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "C4": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "C4",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "D1": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "D1",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "D2": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "D2",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "D3": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "D3",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "D4": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "D4",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "E1": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "E1",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "E2": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "E2",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "E3": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "E3",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    },
+    "E4": {
+      "head_to_phase": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "legal_mask_phase": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "pad_mask_head": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mixing": [],
+      "stats": {
+        "tls_id": "E4",
+        "traci_phases": 16,
+        "green_raw": 8,
+        "green_semantic": 8,
+        "non_semantic_count": 0,
+        "a_loc": 8
+      }
+    }
+  }
+}
